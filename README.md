@@ -1,13 +1,8 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+# Gênesis
 
-Esse é o repositório da nossa aula de Javascript, na qual vamos fazer um simples jogo Gênesis com apenas algumas linhas de código! 
+Este é um simples jogo de cores que exercita a memória de trabalho com apenas HTML, CSS e JavaScript! O jogo é baseado em um dos cursos do bootcamp JavaScript Game Developer, da Digital Innovation One, com algumas alterações feitas por mim.
 
-### Os requisitos são:
-
-* [HTML básico](https://www.w3schools.com/html/)
-* [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-* [Javascript básico](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
- 
+![image](https://user-images.githubusercontent.com/68669255/121267691-f5d3a200-c892-11eb-8edf-518851e452c1.png) 
 
 
 ## 🚀 Let's code! 🚀

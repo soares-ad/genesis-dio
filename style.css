@@ -3,12 +3,20 @@ body {
     background-color: rgb(208, 255, 239);
 }
 
+.text {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main-game {
-    height: 100vh;
+    height: 85vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .genius {

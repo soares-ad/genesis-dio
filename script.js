@@ -2,13 +2,21 @@ let order = [];
 let clickedOrder = [];
 let score = 0;
 
-//0 - verde
-//1 - vermelho
-//2 - amarelo
-//3 - azul
+/*
+0 - verde
+1 - vermelho
+2 - índigo
+3 - violeta
+4 - laranja
+5 - amarelo
+6 - azul
+*/
 
 const blue = document.querySelector('.blue');
 const red = document.querySelector('.red');
+const indigo = document.querySelector('.indigo');
+const violet = document.querySelector('.violet');
+const orange = document.querySelector('.orange');
 const green = document.querySelector('.green');
 const yellow = document.querySelector('.yellow');
 
@@ -67,8 +75,14 @@ let createColorElement = (color) => {
     } else if(color == 1) {
         return red;
     } else if (color == 2) {
-        return yellow;
+        return indigo;
     } else if (color == 3) {
+        return orange;
+    } else if (color == 4) {
+        return orange;
+    } else if (color == 5) {
+        return yellow;
+    } else if (color == 6) {
         return blue;
     }
 }
@@ -99,8 +113,11 @@ let playGame = () => {
 //eventos de clique para as cores
 green.onclick = () => click(0);
 red.onclick = () => click(1);
-yellow.onclick = () => click(2);
-blue.onclick = () => click(3);
+indigo.onclick = () => click(2);
+violet.onclick = () => click(3);
+orange.onclick = () => click(4);
+yellow.onclick = () => click(5);
+blue.onclick = () => click(6);
 
 
 //inicio do jogo

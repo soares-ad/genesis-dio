@@ -13,12 +13,12 @@ body {
 
 .genius {
     display: grid;
-    grid-template-areas: 'verde vermelho'
-    'amarelo azul';
+    grid-template-areas: 'verde . vermelho' 'índigo violeta laranja'
+    'amarelo . azul';
     grid-gap: 10px;
     border: 1px solid #ffffff;
     background-color: #ffffff;
-    border-radius: 100%;
+    border-radius: 33%;
     width: 700px;
     height: 700px;
 }
@@ -45,6 +45,21 @@ body {
     grid-area: verde;
     background-color: green;
     border-top-left-radius: 100%;
+}
+
+.indigo {
+    grid-area: índigo;
+    background-color: indigo;
+}
+
+.violet {
+    grid-area: violeta;
+    background-color: violet;
+}
+
+.orange {
+    grid-area: laranja;
+    background-color: orange;
 }
 
 .selected {
